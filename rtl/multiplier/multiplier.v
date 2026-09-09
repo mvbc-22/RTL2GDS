@@ -6,5 +6,5 @@ module multiplier (
 );
 
 assign P = A * B;
-
+a
 endmodule
