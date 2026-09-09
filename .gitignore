@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+
+# Simulation
+sim_build/
+obj_dir/
+work/
+*.vcd
+*.fst
+*.wlf
+*.log
+
+# Verilator
+*.o
+*.a
+*.so
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# EDA generated files
+*.jou
+*.str
+*.pb
+*.rpt~
+
+# Generated synthesis / P&R files
+build/
+runs/
+tmp/
+
+# Large generated outputs
+*.spef
+*.sdf
+
+# Keep empty directories
+!waves/.gitkeep
+!reports/.gitkeep
+!gds/.gitkeep
